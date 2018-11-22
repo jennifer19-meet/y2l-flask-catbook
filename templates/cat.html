@@ -6,7 +6,10 @@
 <body>
 	<h1>{{cat.name}}</h1>
 	<br>
-	<button class="vote_buttons">Vote</button>
+	<form action="/cats/{{cat.id}}/updatev">
+	
+		<input type="submit" value="vote">
 
+	</form>
 </body>
 </html>
